@@ -1,0 +1,98 @@
+.mainphoto{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imgs/brown_cavalier_king_charles_spaniel_dog_puppy_hd_dog_jpeg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 350;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.btn-1{
+    border: 1px solid rgb(44, 37, 37);
+    text-decoration: none;
+    color:black;
+}
+.write{
+    
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    height: 45vh;
+   
+}
+.next-2{
+    background-color: #f8f9fa;
+    padding: 6rem;
+    height: 45vh;
+    margin-top: 13vh;
+    
+}
+.next-3{
+    margin-top: 15vh;
+}
+.volenteen{
+    background-image: url('../imgs/12photostory-NZTcmWvWaAQ-unsplash.jpg');
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 350;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.box{
+width: 400px;
+    color: black;
+    height: 50vh;
+    background-color: white;
+    padding: 3rem;
+}
+
+.back{
+    width: 100%;
+}
+.last{
+    background-image: url('../imgs/pexels-chetanvlad-2469085.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 350;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}

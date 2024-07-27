@@ -1,0 +1,872 @@
+.text{
+    display: flex;
+   flex-direction: column;
+  
+  align-items: center;
+ 
+  
+}
+.abh{
+    background-image: url('../imgs//brown_cavalier_king_charles_spaniel_dog_puppy_hd_dog_jpeg.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text h3{
+    margin-top: 20vh;
+    color: aliceblue;
+    font-weight: 1000;
+    font-size: 25px;
+}
+.text h1{
+    padding: 5vh;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+.buttonab{
+    margin-top: 2vh;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 25px;
+    border: 1px solid;
+   background-color: rgb(10, 223, 131);
+}
+.buttonab:hover{
+    background: transparent;
+    color: aliceblue;
+    border-color: rgb(11, 179, 81);
+}
+@media screen and (max-width: 750px) {
+   .text h1 {
+font-size: 20px;
+;
+  }
+}
+@media screen and (max-width: 750px) {
+   .buttonab {
+width: 120px;
+  }
+}
+@media screen and (max-width: 750px) {
+   .text h3 {
+font-size: 20px;
+
+  }
+}
+.abhay{
+    background-image: url();
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+
+    height: 85vh;
+    width: 100%;
+    
+}
+.blogimg{
+   
+    display: flex;
+    height: 45vh;
+border: none;
+    /* margin: 5px;
+    padding:  */
+    width: 20vw;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+   ;
+   
+}
+.img1 img{
+    width:20vw ;
+    height: 23vh;
+    margin-left: -12px;
+    justify-content: center;
+   
+}
+.img1 img:hover{
+    transform: scale(.93);
+     cursor: pointer;
+    
+}
+.imgtext1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   text-align: center;
+}
+.b1 {
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 2vh;
+
+}
+.min{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.b1 button{
+    border-radius: 15px;
+    border: none;
+    width: 7vw;
+    height: 5vh;
+    background-color:rgb(116, 130, 201);
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+}
+.b1 button:hover{
+    background-color: transparent;
+    color:black
+}
+.abhay{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+}
+@media screen and (max-width: 750px) {
+   .abhay {
+flex-direction: column;
+;
+margin-top: 45vh;
+  }
+}
+@media screen and (max-width: 750px) {
+   .img1 img {
+width: 35vh;
+
+  }
+}
+@media screen and (max-width: 750px) {
+   .blogimg {
+width: 34vh;
+margin: auto;
+padding: 20px;
+
+  }
+}
+@media screen and (max-width: 750px) {
+   .blogimg {
+width: 34vh;
+margin: auto;
+padding: 17px;
+
+  }
+}
+@media screen and (max-width: 750px) {
+   .b1 button {
+width: 17vw;
+height: 4vh;
+
+  }
+}
+.imgbigsec{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    
+}
+.sof{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    margin-left: 14vw;
+}
+.down1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.soft{
+    padding: 8px;
+    border: 1px solid rgb(125, 109, 215);
+    width: 20vw;
+   background-color:#cce0ff;
+    margin: 10px;
+    border-radius:  20px;
+    text-align: center;
+    cursor: pointer;
+   margin-top: px;
+}
+.bigimg img{
+    margin: auto;
+    margin-left: 2.5vw;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: none;
+    cursor: pointer;
+   
+}
+.bigimg img:hover{
+    transform: scale(1.02);
+   
+}
+
+.datesec{
+    display: flex;
+    width: 22vw;
+    height: 40px;
+   justify-content:center ;
+    border: 1px solid red;
+    margin-left: 14vw;
+    border-radius: 20px;
+    background-color: rgb(161, 99, 218);
+    margin-top: 0vh;
+   align-items: center;
+   overflow: hidden;
+   
+   
+}
+.bigimg img{
+    width: 50vw;
+    height: 55vh;
+   
+}
+@media screen and (max-width: 750px) {
+   .imgbigsec {
+display: flex;
+flex-direction: column;
+
+  }
+}
+@media screen and (max-width: 750px) {
+    .bigimg img {
+margin-top: 49vh;
+width: 95vw;
+height: 40vh;
+
+    }
+}
+@media screen and (max-width: 750px) {
+   .soft {
+       width: 50vw;
+       height: 2vh;
+      text-align: center;
+      padding: 10px;
+      margin-left: 2vw;
+      
+     
+  }
+}
+@media screen and (max-width: 750px) {
+   .sof {
+      display: flex;
+      flex-direction: column;
+      margin-top: 150vh;
+      width: 90vw;
+      margin-left:-30vw;
+      
+  }
+}
+@media screen and (max-width: 750px) {
+   .bigimg img:hover {
+    transform: scale(1.06);
+  }
+}
+.b h1{
+    margin-bottom: 3vh;
+    margin-left: 1vw;
+    font-weight: 1000;
+    font-size: 40px;
+}
+@media screen and (max-width: 750px) {
+   .b h1 {
+   text-align: center;
+   font-size: 25px;
+   font-weight:900;
+  }
+}
+.imgsex img{
+width: 25vw;margin-top: 5vh;
+cursor: pointer;
+border-radius: 10px;
+box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.imgsex img:hover{
+    transform: scale(1.02);
+}
+.bb{
+    width: 25vw;
+    margin-top: 5px;
+}
+.textsection h1{
+   margin-top: 5px;
+}
+.dateset{
+    width: 40vw;
+  margin-top: -38vh;
+  margin-left: 3vw;
+ 
+  
+  
+}
+.admin{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 25vw;
+    justify-content: center;
+    border-radius: 15px;
+   margin-left:13vw;
+   height: 25px;
+   background-color:#cce0ff;
+   margin-top: 2vh;
+  
+   
+   
+}
+.admin img{
+    width: 20px;
+    height: 20px;
+}
+
+.m1 {
+margin-left: 3vw;
+margin-top: 4vh;
+}
+.ad{
+    width: 15vw;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 5.5vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    background-color:#cce0ff;
+    margin-top: 10px;
+}
+.ad img{
+    width: 10px ;
+    height: 10px;
+}
+.m1 button{
+    width: 8vw;
+    height: 4vh;
+    background-color:#cce0ff;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 3.5vh;
+   
+}
+.m1 button:hover{
+    background: transparent;
+}
+
+@media screen and (max-width: 1440px) {
+   .dateset {
+  margin-top: -30vh;
+  }
+}
+@media screen and (max-width: 1260px) {
+   .inputa button {
+font-size: 10px;
+  }
+}
+@media screen and (max-width: 1440px) {
+   .m1 button {
+ width: 15vw;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+   .admin {
+      width: 20vw;
+      height: 3vh;
+      display: flex;
+      align-items: center;
+      font-size: 10px;
+      margin-left: 17vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+   .admin img {
+  width: 7px;
+  height: 7px;
+  }
+}
+@media screen and (max-width: 750px) {
+   .ad {
+      width: 25vw;
+      height: 3vh;
+      display: flex;
+      align-items: center;
+      font-size: 10px;
+      justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+   .m1 {
+    width: 90vw;
+    margin-left: 7vw;
+  }
+}
+@media screen and (max-width: 750px) {
+   .m1 button {
+    width: 30vw;
+    margin-left: 28vw;
+  }
+}
+@media screen and (max-width: 750px) {
+   .admin {
+    width: 55vw;
+   display: flex;
+  margin-left: 23vw;
+   
+   
+  }
+}
+@media screen and (max-width: 750px) {
+   .b h1 {
+    margin-right: 23vw;
+    
+  }
+}
+/* @media screen and (max-width: 750px) {
+   .textsection {
+    display: none;
+  }
+} */
+@media screen and (max-width: 750px) {
+   .h1 {
+ margin-left:  -12vw;
+
+ 
+  }
+}
+.soft:hover{
+background: transparent;
+}
+@media screen and (max-width: 750px) {
+   .imgsex img {
+  width: 90vw;
+  margin-left: -14.5vw;
+    
+  }
+}
+@media screen and (max-width: 750px) {
+  
+}
+@media screen and (max-width: 750px) {
+   .bb  {
+ margin-left: -8vw;
+    width: 80vw;
+    padding:auto;
+  }
+}
+.inputa input{
+    margin-top: 10px;
+    width: 25vw;
+    text-align: center;
+    height: 4vh;
+    border: .1px solid;
+}
+.inputa button{
+    width: 7vw;
+    height: 4vh;
+    border-radius: 15px;
+    border: 1px solid blueviolet;
+    background-color:#cce0ff;
+    cursor: pointer;
+}
+.inputa button:hover{
+    background: transparent;
+}
+@media screen and (max-width: 750px) {
+   .inputa input  {
+width: 80vw;
+margin-left: -9vw;
+
+  }
+}
+@media screen and (max-width: 750px) {
+   .inputa {
+display: flex;
+flex-direction: column;
+font-size: 15px
+  }
+}
+@media screen and (max-width: 750px) {
+   .inputa button {
+width: 20vw;
+margin-top: 10px;
+margin-left: 20vw;
+font-size: 10px
+  }
+}
+.down2{
+  margin-top: 5vh;
+  display: flex; 
+  height: 100vh;
+    width: 100%;
+
+}
+
+ 
+
+.textsection2 {
+  width: 40vw;
+  margin-left: 14vw;
+  margin-top: 0vh;
+  
+}
+.textsection3 {
+  width: 40vw;
+  margin-left: 14vw;
+  margin-top: 0vh
+}
+.imgsex3 img{
+  border-radius: 15px;
+  width: 25vw;
+}
+@media screen and (max-width: 750px) {
+   .imgbigsec2 {
+margin-top: 100vh
+  }
+}
+.imgbigsec2{
+  width: 50vw;
+}
+.down3{
+  display: flex;
+  height: 100vh;
+    width: 100%;
+}
+.imgbigsec3{
+  width: 50vw;
+  margin-top: 5vh;
+}
+.imgsex3 img{
+  margin-top: 15vh;
+}
+@media screen and (max-width: 750px) {
+   .down3 {
+    margin-top: 100vh
+  }
+}
+
+@media screen and (max-width: 750px) {
+   .down2 {
+    margin-top: 200vh
+  }
+}
+@media screen and (max-width: 750px) {
+   .textsection {
+    margin-top: 5vh
+  }
+}
+@media screen and (max-width: 750px) {
+   .sof {
+    margin-top: 395vh
+  }
+}
+@media screen and (max-width: 750px) {
+   .imgbigsec2 {
+    margin-top: -200vh
+  }
+}
+@media screen and (max-width: 750px) {
+   .imgbigsec3 {
+    margin-top: -300vh
+  }
+}
+@media screen and (max-width: 750px) {
+   .textsection2 {
+    margin-top: 200vh
+  }
+}
+@media screen and (max-width: 750px) {
+   .textsection2 img {
+    margin-left: -60vw;
+    margin-top: 15vh;
+  }
+}
+@media screen and (max-width: 750px) {
+   .textsection3 {
+    margin-top: -40vh;
+    width: 90vw;
+    margin-left: -30vw;
+  }
+}
+@media screen and (max-width: 750px) {
+    .imgsex32 img {
+   display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+    .imgsex31 img {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px){
+     .imgsex21 img {
+    display: none;
+}
+}
+@media screen and (max-width: 750px){
+     .imgsex22 img {
+    display: none;
+}
+}
+@media screen and (max-width: 750px){
+     .bb1 h1 {
+    display: none;
+}
+}
+@media screen and (max-width: 1000px){
+     .m1 button {
+   margin-top: -5vh;
+}
+}
+@media screen and (max-width: 1000px){
+     
+}
+@media screen and (max-width: 1000px){
+     .down4 {
+   margin-top: 100vh;
+}}
+
+.imgsex22 img{
+  margin-top: 17vh;
+  width: 25vw;
+cursor: pointer;
+border-radius: 10px;
+box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.imgsex32 img{
+  margin-top: 17vh;
+  width: 25vw;
+cursor: pointer;
+border-radius: 10px;
+box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.imgsex21 img{
+ 
+  width: 25vw;
+cursor: pointer;
+border-radius: 10px;
+box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.imgsex31 img{
+ margin-top: 2vh;
+  width: 25vw;
+cursor: pointer;
+border-radius: 10px;
+box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++/? */
+.down4{
+  margin-top: 10vh;
+  display: flex;
+}
+ .icontag{
+  margin-top: 45vh;
+  
+}
+.icontag button{
+  width: 8vw;
+  height: 4vh;
+  margin-top: 2vh;
+  border-radius: 15px;
+  background-color:#cce0ff;
+}
+.one{
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+.one input{
+ width: 20vw;
+ height: 4vh;
+  margin-top: 4vh;
+}
+.one button{
+  width: 20.2vw;
+  height: 4.4vh;
+  margin-top: 2vh;
+}
+/* @media screen and (max-width: 1000px){
+     .one {
+   margin-top: -60vh;
+   margin-left: -70vw;
+}
+}
+@media screen and (max-width: 1000px){
+     .icontag {
+   margin-top: -37vh;
+   margin-left: -70vw;
+}
+}
+@media screen and (max-width: 1000px){
+     .icontag button{
+   width: 20vw;
+} */
+
+/* @media screen and (max-width: 1000px){
+     .textq1 input {
+   width:80vw ;
+   margin-left: -17vw;
+}
+} */
+@media screen and (max-width: 750px){
+     .one h1 {
+  margin-left: -29vw;
+  margin-top: -70vh;
+}
+}
+@media screen and (max-width: 750px){
+     .imgbigsec4 {
+   margin-top: -210vh;
+}
+}
+@media screen and (max-width: 750px){
+     .textq1 input {
+   margin-left: -50vw;
+   width: 80vw;
+}
+}
+@media screen and (max-width: 750px){
+     .bn1 {
+   margin-left: -20vw;
+   width: 80vw;
+}
+}
+@media screen and (max-width: 750px){
+     .icontag {
+display: none;
+}
+}
+.one{
+  margin-left: 10vw;
+}
+
+.imgbigsec4 {
+  width: 50vw;
+}
+.icontag button:hover{
+  background: transparent;
+}
+.icontag button{
+  border: 1PX solid blueviolet;
+  cursor: pointer;
+}
+.imgsex21:hover{
+  transform: scale(1.02);
+}
+.imgsex22:hover{
+  transform: scale(1.02);
+}
+.imgsex31:hover{
+  transform: scale(1.02);
+}
+.imgsex32:hover{
+  transform: scale(1.02);
+}
+
+/* =======================================================LASTBAAR=============================== */
+.c1a{
+  display: flex;
+}
+.c1b{
+  display: flex;
+}
+.c1a img{
+width: 15px ;
+height: 15px;
+
+}
+.c1b img{
+width: 50px ;
+height: 50px;
+margin: 5px;
+margin-top: 10px;
+
+}
+.endbaar{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: antiquewhite;
+  width: 100%;
+  
+
+}
+.instgram{
+  display: flex;
+}
+.b3 input{
+  margin-top: 25px;
+  width: 20vw;
+  height: 30px;
+}
+ .endbaar1{
+ width: 10vw; 
+ margin: 70px;
+ color: white;
+
+ }
+ .endbaar1 h1{
+color: rgb(203, 192, 192);
+
+ }
+ .a2 h1{
+ color: rgb(231, 213, 213);
+ }
+ .a2 p{
+ color: rgb(157, 152, 152);
+ }
+ .b1 h1{
+  margin-left: 1vw;
+  margin-top: -2vh;
+  color: rgb(208, 197, 197);
+ }
+ .b1 p{
+  color: rgb(157, 152, 152);
+ }
+ @media screen and (max-width: 750px){
+     .endbaar {
+      margin-top: -45vh;
+      display: flex;
+      flex-direction: column;
+
+}
+}
+@media screen and (max-width: 750px){
+     .endbaar1 {
+      width: 83vw;
+      margin: 25px;
+
+}
+}
+@media screen and (max-width: 750px){
+     .b3 input {
+      width: 300px;
+      
+
+}
+}
+@media screen and (max-width: 750px){
+     .b1 h1 {
+      margin-right: 200px;
+      
+
+}
+}
+.instgram img{
+  width: 14px ;
+  height: 14px;
+  margin: 8px;
+  margin-left: 7px;
+}
+.a6 h1{
+  font-size: 20px;
+}
